@@ -495,8 +495,9 @@ class AdministratorApplication extends CMSApplication
         $app->getInput()->set('option', $option);
 
         // Echo the result to the console
-        echo "Result of findOption(): $option\n";
-
+        echo "Result: "
+	echo "$option\n";
+	
         return $option;
     }
 }
